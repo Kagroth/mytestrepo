@@ -1,5 +1,3 @@
-import sys
-
 def is_valid(s):
     """
     :type s: str
@@ -34,7 +32,3 @@ def is_valid(s):
         size = len(stack) - 1
 
     return True
-
-if __name__ == '__main__':
-    result = "Valid" if is_valid(sys.argv[1]) else "Invalid"
-    print("The string {} is {}".format(sys.argv[1], result))
